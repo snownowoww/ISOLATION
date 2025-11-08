@@ -43,7 +43,7 @@ public class MainManager : MonoBehaviour
     private void SettingsButton()
     {
         if (isConversion) return;
-        StartCoroutine(MoveCameraSmoothly(SettingsPosition, Quaternion.Euler(SettingsRotation)));
+        //StartCoroutine(MoveCameraSmoothly(SettingsPosition, Quaternion.Euler(SettingsRotation)));
     }
 
     private void ExitButton()
